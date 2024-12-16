@@ -3007,11 +3007,11 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_HUMAN_LIKE,
         .eggGroup2 = EGG_GROUP_HUMAN_LIKE,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_KEEN_EYE, ABILITY_IRON_FIST},
+            .abilities = {ABILITY_KEEN_EYE, ABILITY_INNER_FOCUS},
         #else
             .abilities = {ABILITY_KEEN_EYE, ABILITY_NONE},
         #endif
-        .abilityHidden = ABILITY_INNER_FOCUS,
+        .abilityHidden = ABILITY_IRON_FIST,
         .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
     },
@@ -5715,7 +5715,7 @@ const struct BaseStats gBaseStats[] =
         .baseDefense   = 140,
         .baseSpeed     = 40,
         .baseSpAttack  = 60,
-        .baseSpDefense = 60,
+        .baseSpDefense = 65,
         .type1 = TYPE_BUG,
         .type2 = TYPE_STEEL,
         .catchRate = 255,
@@ -8134,11 +8134,11 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_SHEDINJA] =
     {
-        .baseHP        = 5,
+        .baseHP        = 10,
         .baseAttack    = 110,
         .baseDefense   = 30,
         .baseSpeed     = 150,
-        .baseSpAttack  = 125,
+        .baseSpAttack  = 120,
         .baseSpDefense = 30,
         .type1 = TYPE_BUG,
         .type2 = TYPE_GHOST,
@@ -13336,7 +13336,7 @@ const struct BaseStats gBaseStats[] =
         .baseAttack    = 80,
         .baseDefense   = 70,
         .baseSpeed     = 110,
-        .baseSpAttack  = 90,
+        .baseSpAttack  = 95,
         .baseSpDefense = 70,
         .type1 = TYPE_ICE,
         .type2 = TYPE_GHOST,
@@ -16019,7 +16019,8 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_ILLUSION, ABILITY_NONE},
+            .abilities = {ABILITY_ILLUSION, ABILITY_ILLUSION},
+            .abilityHidden = ABILITY_TRACE,
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
         #endif
@@ -19718,8 +19719,8 @@ const struct BaseStats gBaseStats[] =
         .baseHP        = 80,
         .baseAttack    = 90,
         .baseDefense   = 75,
-        .baseSpeed     = 125,
-        .baseSpAttack  = 75,
+        .baseSpeed     = 120,
+        .baseSpAttack  = 70,
         .baseSpDefense = 65,
         .type1 = TYPE_FIGHTING,
         .type2 = TYPE_FLYING,
@@ -24171,7 +24172,7 @@ const struct BaseStats gBaseStats[] =
         .baseSpAttack  = 55,
         .baseSpDefense = 50,
         .type1 = TYPE_PSYCHIC,
-        .type2 = TYPE_PSYCHIC,
+        .type2 = TYPE_FAIRY,
         .catchRate = 255,
         .expYield = 53,
         .evYield_SpAttack  = 1,
@@ -24200,7 +24201,7 @@ const struct BaseStats gBaseStats[] =
         .baseSpAttack  = 85,
         .baseSpDefense = 75,
         .type1 = TYPE_PSYCHIC,
-        .type2 = TYPE_PSYCHIC,
+        .type2 = TYPE_FAIRY,
         .catchRate = 255,
         .expYield = 130,
         .evYield_SpAttack  = 2,
