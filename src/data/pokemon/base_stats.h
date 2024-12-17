@@ -10687,11 +10687,11 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_JIRACHI] =
     {
         .baseHP        = 80,
-        .baseAttack    = 80,
-        .baseDefense   = 120,
+        .baseAttack    = 90,
+        .baseDefense   = 110,
         .baseSpeed     = 100,
-        .baseSpAttack  = 80,
-        .baseSpDefense = 120,
+        .baseSpAttack  = 90,
+        .baseSpDefense = 130,
         .type1 = TYPE_STEEL,
         .type2 = TYPE_PSYCHIC,
         .catchRate = 255,
