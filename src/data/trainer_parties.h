@@ -7301,8 +7301,8 @@ static const struct TrainerMonItemCustomMoves sParty_Winona1[] = {
 	.isShiny = FALSE,
     .postgameheldItem = ITEM_SITRUS_BERRY,
     .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_GYRO_BALL, MOVE_PLUCK, MOVE_POWER_TRIP, MOVE_HONE_CLAWS},
-    .moves = {MOVE_GYRO_BALL, MOVE_PLUCK, MOVE_POWER_TRIP, MOVE_HONE_CLAWS}
+    .postgamemoves = {MOVE_METAL_CLAW, MOVE_PLUCK, MOVE_POWER_TRIP, MOVE_HONE_CLAWS},
+    .moves = {MOVE_METAL_CLAW, MOVE_PLUCK, MOVE_POWER_TRIP, MOVE_HONE_CLAWS}
     },
     {
     .iv = 255,
@@ -20993,8 +20993,8 @@ static const struct TrainerMonItemCustomMoves sParty_Winona2[] = {
 	.isShiny = FALSE,
     .postgameheldItem = ITEM_SITRUS_BERRY,
     .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_STEEL_WING, MOVE_PLUCK, MOVE_PAYBACK, MOVE_HONE_CLAWS},
-    .moves = {MOVE_STEEL_WING, MOVE_PLUCK, MOVE_PAYBACK, MOVE_HONE_CLAWS}
+    .postgamemoves = {MOVE_METAL_CLAW, MOVE_PLUCK, MOVE_PAYBACK, MOVE_HONE_CLAWS},
+    .moves = {MOVE_METAL_CLAW, MOVE_PLUCK, MOVE_PAYBACK, MOVE_HONE_CLAWS}
     },
     {
     .iv = 255,
