@@ -6822,8 +6822,8 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne1[] = {
 	.isShiny = FALSE,
     .postgameheldItem = ITEM_SITRUS_BERRY,
     .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_WATER_GUN, MOVE_BITE, MOVE_DRAGON_TAIL, MOVE_STEALTH_ROCK},
-    .moves = {MOVE_WATER_GUN, MOVE_BITE, MOVE_DRAGON_TAIL, MOVE_STEALTH_ROCK}
+    .postgamemoves = {MOVE_WATER_GUN, MOVE_ROCK_TOMB, MOVE_BITE, MOVE_STEALTH_ROCK},
+    .moves = {MOVE_WATER_GUN, MOVE_ROCK_TOMB, MOVE_BITE, MOVE_STEALTH_ROCK}
     },
     {
     .iv = 255,
@@ -19029,8 +19029,8 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne2[] = {
 	.isShiny = FALSE,
     .postgameheldItem = ITEM_SITRUS_BERRY,
     .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_WATER_GUN, MOVE_JAW_LOCK, MOVE_DRAGON_TAIL, MOVE_STEALTH_ROCK},
-    .moves = {MOVE_WATER_GUN, MOVE_JAW_LOCK, MOVE_DRAGON_TAIL, MOVE_STEALTH_ROCK}
+    .postgamemoves = {MOVE_WATER_GUN, MOVE_ROCK_TOMB, MOVE_JAW_LOCK, MOVE_STEALTH_ROCK},
+    .moves = {MOVE_WATER_GUN, MOVE_ROCK_TOMB, MOVE_JAW_LOCK, MOVE_STEALTH_ROCK}
     },
     {
     .iv = 255,
@@ -19128,8 +19128,8 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne3[] = {
 	.isShiny = FALSE,
     .postgameheldItem = ITEM_SITRUS_BERRY,
     .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_LIQUIDATION, MOVE_JAW_LOCK, MOVE_DRAGON_TAIL, MOVE_STEALTH_ROCK},
-    .moves = {MOVE_LIQUIDATION, MOVE_JAW_LOCK, MOVE_DRAGON_TAIL, MOVE_STEALTH_ROCK}
+    .postgamemoves = {MOVE_LIQUIDATION, MOVE_ROCK_TOMB, MOVE_JAW_LOCK, MOVE_STEALTH_ROCK},
+    .moves = {MOVE_LIQUIDATION, MOVE_ROCK_TOMB, MOVE_JAW_LOCK, MOVE_STEALTH_ROCK}
     },
     {
     .iv = 255,
@@ -19227,8 +19227,8 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne4[] = {
 	.isShiny = FALSE,
     .postgameheldItem = ITEM_SITRUS_BERRY,
     .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_LIQUIDATION, MOVE_JAW_LOCK, MOVE_HEAD_SMASH, MOVE_STEALTH_ROCK},
-    .moves = {MOVE_LIQUIDATION, MOVE_JAW_LOCK, MOVE_HEAD_SMASH, MOVE_STEALTH_ROCK}
+    .postgamemoves = {MOVE_LIQUIDATION, MOVE_HEAD_SMASH, MOVE_JAW_LOCK, MOVE_STEALTH_ROCK},
+    .moves = {MOVE_LIQUIDATION, MOVE_HEAD_SMASH, MOVE_JAW_LOCK, MOVE_STEALTH_ROCK}
     },
     {
     .iv = 255,
@@ -19326,8 +19326,8 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne5[] = {
 	.isShiny = FALSE,
     .postgameheldItem = ITEM_SITRUS_BERRY,
     .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_LIQUIDATION, MOVE_JAW_LOCK, MOVE_HEAD_SMASH, MOVE_STEALTH_ROCK},
-    .moves = {MOVE_LIQUIDATION, MOVE_JAW_LOCK, MOVE_HEAD_SMASH, MOVE_STEALTH_ROCK}
+    .postgamemoves = {MOVE_LIQUIDATION, MOVE_HEAD_SMASH, MOVE_JAW_LOCK, MOVE_STEALTH_ROCK},
+    .moves = {MOVE_LIQUIDATION, MOVE_HEAD_SMASH, MOVE_JAW_LOCK, MOVE_STEALTH_ROCK}
     },
     {
     .iv = 255,
